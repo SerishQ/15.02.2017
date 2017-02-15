@@ -1,0 +1,8 @@
+                                     nth-child nece isleyir?
+ul li : nth-child (3n+3) {
+ color:#ccc
+}
+Yuxarida yazilan CSS selektorudur,psevdo selektordu ve nth-child adlanir.Burada bu selektor unordered listdeki her 3-cu listi secir.Bu,3-cu,6-ci,9-cu listlerdir. Bes bu selektor nece isleyir? Qisa olaraq,bu selektorun islemesi moterizede neyin oldugundan asilidir. n-th child hemcinin "odd" ve "even" acarsozlerini de qebul edir.Aydindir ki,"even" verdiyimizde cut siradaki listleri,"odd" verdiyimizde tek siradaki listleri sececekdir. Hemcinin biz moterize daxilinde hansisa reqem de yaza bilerik,meselen nth-child(5) yazsaq sadece 5ci siradaki listi sececekdir.Indi ise esas numunede olan (3n+3)-un nece islediyine baxaq.Nece olur ki bu ancaq her 3cu elementi secir? Bu hiyle n-in basa dusulmesi ve cebri ifadeyle baglidir.Fikirlesek ki, n sifirdan baslayaraq butun musbet tam ededleri alir.Onda hemin ededleri n-in yerine qoyaraq 3n+3-un aldigi qiymetleri nezerden kecirek.
+(3 x 0) + 3 = 3 = 3rd Element
+(3 x 1) + 3 = 6 = 6th Element
+(3 x 2) + 3 = 9 = 9th Element
