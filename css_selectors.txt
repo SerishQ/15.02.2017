@@ -1,0 +1,53 @@
+                                     CSS SELECTORS
+1) .class = .intro - class= "intro" adli classdaki butun elementleri secir.
+2)#id=  #firstname-  id="firstname"e aid butun elementleri secir.
+3) *= butun elementleri secir
+4) element= p- <p>ye aid butun elementleri secir.
+5) element,element=div,p- Hem <div> hem de <p>-ye aid elementleri secir
+6) element  element= div  p- <div> daxilindeki butun <p> elementlerini secir
+7) element>element=div>p- <div>-in valideyn oldugu butun <p> elementlerini secir.
+8) element+element= div+p- <div>-den derhal sonra yerlesen <p> elementlerini secir
+9) element1~element2=p~ul- <p>den sonra yerlesen butun <ul> elementlerini secir
+10) [attribute]=[target]- target atributlu butun elementleri secir
+11)[attribute=value]=[target=_blank]- target=_blank  olan butun elementleri secir
+12) [attribute I=value]=[lang I=en]- "en"-le baslayan butun elementleri secir
+13) [attribute~=value]=[title~=flower]- flower daxil olan butun elementleri secir
+14) [attribute^=value]=a[href^="https"]- href atributu "https"-le baslayan her bir <a> elementini secir
+15) [attribute$=value]=a[href$=".pdf"]- href atributu pdf-le biten her bir <a> elementini secir
+16)[attribute*=value]=a[href*="w3schools"- href atributunda w3schools olan <a> elementini secir
+17) a:active= aktiv linki secir
+18) p::after= her bir <p> elementinin kontentinden sonra nese elave edir
+19) p::before= her bir <p> elementinin kontentinden evvel nese elave edir
+20)input:checked= checked olmus <input> elementini secir
+21) input:disabled= disable olmus <input> elementini secir
+22)p:empty= Usaqlari olmayan butun <p> elementlerini secir
+23) input:enabled= enable olan her bir <input> elementini secir
+24)p:first-child= valideynin birinci ushagi olan <p> elementlerini secir
+25) p::first-letter=<p> elementinin birinci herfini secir
+26) p::first-line=<p> elementinin birinci setrini secir
+27) p:first-of-type= valideyne mexsus ilk <p> elementini secir
+28)input:focus= Fokusu olan giris elementini secir
+29)a:hover= Mausla uzerine tiklanan linkleri secir
+30)input:in-range=Mueyyen araliqda deyeri olan giris elementlerini secir
+31)input:invalid=Deyeri kecersiz olan giris elementini secir
+32) p:lang(It)= lang atributu It-e beraber olan <p> elementlerini secir
+33)p:last-child= valideyninin son ushagi olan <p> elementlerini secir
+34)p:last-of-type=valideyninin son elementi olan <p> elementlerini secir
+35)a:link=ziyaret edilmemis butun linkleri secir
+36):not(p)=<p> elementi olmayan elementleri secir
+37)p:nth-child(2)=Valideyninin 2-ci ushagi olan <p> elementlerini secir
+38) p:nth-last-child(2)=Valideyninin sondan 2-ci ushagi olan <p> elementlerini secir
+39) p:nth-last-of-type(2)=Valideyninin sondan 2-ci elementi olan <p> elementlerini secir
+40) p:nth-of-type(2)=Valideyninin 2-ci elementi olan <p> elementlerini secir
+41) p:only-of-type=Valideyninin yegane elementi olan <p> elementini secir
+42) p:only-child=Valideyninin yegane ushagi olan <p> elementini secir
+43)input:optional="required" atributu olmayan giris elementlerini secir
+44)input:out-of-range=Deyerleri mueyyen araliqdan kenarda olan giris elementlerini secir
+45)input:read-only=Atributu read-only olan girish elementlerini secir
+46) input:read-write=Atributu read-only olmayan giris elementlerini secir
+47)input:required=Atributu required olan giris elementlerini secir
+48):root=Document'in root elementini secir
+49)::selection=istifadeci terefinden secilen elementi secir
+50)#news:target=Halhazirda aktiv olan #news elementini secir
+51)input:valid= Deyeri etibarli olan butun giris elementlerini secir
+52)a:visited=ziyaret edilmis butun linkleri secir
